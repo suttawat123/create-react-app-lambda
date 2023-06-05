@@ -1,0 +1,199 @@
+/* Login */
+
+.login {
+  width: 434px;
+  height: 547px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+}
+
+.boxLogin {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.web_desktop {
+  object-fit: contain;
+  background-image: url("../../assets/images/background/login-register.jpg");
+}
+
+.boxContainer {
+  /* padding-left: 0px;
+  padding-right: 0px; */
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .boxContainer {
+    margin-top: 30px;
+  }
+}
+
+/* .boxcardgroup {
+  width: 434px;
+} */
+
+.boxCardLogin {
+  width: 100%;
+  max-width: 434px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  padding-top: 29px;
+}
+
+.boxCardBody {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+}
+
+.btLogin {
+  font-family: Sarabun;
+  font-size: 20px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  max-width: 374px;
+  height: 50px;
+  border-radius: 27px;
+  border-width: 0;
+  background-image: linear-gradient(to right, #1f5afd, #5e72e4);
+}
+
+.btLogin:hover {
+  background-image: linear-gradient(to right, #1f5afd, #1f5afd);
+}
+
+.btLoginRegister {
+  width: 100%;
+  max-width: 374px;
+  height: 50px;
+  border-radius: 100px;
+  border: solid 1px #5e72e4;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: Sarabun;
+  font-size: 20px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1f5afd;
+  margin-top: 26px;
+}
+
+.btLoginRegister:hover {
+  color: #1f5afd;
+  border: solid 1px #1f5afd;
+  background-color: #eaf5f6;
+}
+
+.username {
+  font-family: Sarabun;
+  font-size: 15px !important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #333333;
+}
+
+.password {
+  font-family: Sarabun;
+  font-size: 15px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #333333;
+}
+
+.forgotpassword {
+  font-family: Sarabun;
+  font-size: 15px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1f5afd;
+  margin-top: 21px;
+  text-decoration: underline;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.FormFeedback {
+  font-family: THSarabun;
+  font-size: 15px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: bold;
+}
+
+.lableFotter {
+  font-family: Sarabun-Regular !important;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.version {
+  font-family: THSarabun;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+}
+
+.errorMessage {
+  font-family: THSarabun;
+  font-size: 15px;
+  color: #e74957;
+}
+
+.logo {
+  width: 199.2px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.popup-notice-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 700px;
+  height: 530px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+}
+
+@media (max-width: 420px) {
+  .popup-notice-contact {
+    width: 100%;
+    min-height: 88vh;
+  }
+
+  #btNoticeContact {
+    font-size: 1rem;
+    width: 30vw;
+    height: 6vh;
+  }
+}

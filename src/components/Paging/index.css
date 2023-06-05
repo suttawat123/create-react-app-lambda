@@ -1,0 +1,205 @@
+/* Paging */
+
+.BoxPage {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Page {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #f1f3f5;
+    border-radius: 50%;
+    /* padding-top: 8px; */
+    cursor: pointer;
+    float: left;
+    margin: 0 5px;
+    font-family: Sarabun;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1f5afd;
+}
+
+
+/* .Page .PageText {
+    font-family: Sarabun;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1f5afd;
+    margin: 2px;
+} */
+
+.PageText:hover {
+    font-family: Sarabun;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    margin: 2px;
+}
+
+.Page:hover {
+    color: #fff;
+    background-color: #1f5afd;
+}
+
+.Page:hover .PageText {
+    font-family: Sarabun;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    margin: 2px;
+}
+
+.PageActive {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    /* padding-top: 8px; */
+    cursor: pointer;
+    float: left;
+    margin: 0 5px;
+    background-color: #1f5afd;
+    float: left;
+    font-family: Sarabun;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.PageActive .PageText {
+    font-family: Sarabun;
+    font-size: 15px;
+    color: #fff;
+    margin: 2px;
+}
+
+.BoxPage .Next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: Sarabun;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #1f5afd;
+    margin: 0 5px;
+}
+
+.BoxPage .Back {
+    /* float: left; */
+    /* padding-top: 6px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: Sarabun;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #1f5afd;
+    margin: 0 5px;
+}
+
+.BoxPage .Next .Text {
+    font-family: Sarabun;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #1f5afd;
+}
+
+.BoxPage .Next .dot {
+    font-family: Sarabun;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #1f5afd;
+    margin-left: 4px;
+}
+
+.BoxPage .Back .Text {
+    font-family: Sarabun;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #1f5afd;
+    margin-right: 4px;
+}
+
+.BoxPage .Back .dot {
+    font-family: Sarabun;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #1f5afd;
+    margin-left: 4px;
+}
+
+
+.Total {
+    /* padding-top: 12px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    font-family: Sarabun;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #333;
+    height: 100%;
+}
+
+.Total .Text {
+    font-family: Sarabun;
+    font-size: 15px;
+    color: #333;
+    /* margin: 2px; */
+}
+
+.medium{
+    width: 500px;
+}

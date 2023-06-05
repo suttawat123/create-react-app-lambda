@@ -1,0 +1,39 @@
+.selected {
+  background-color: #02bfd4;
+}
+
+.div-disable {
+  height: 50px;
+  border-radius: 5px;
+  border: solid 1px #b7b6b7;
+  background-color: #cacccf;
+  float: left;
+  width: 100%;
+}
+
+.img-disableds {
+  float: left;
+}
+
+.select-province {
+  width: 318px;
+}
+
+.select-filter-price {
+  width: 270px;
+}
+
+.select-fund {
+  width: 175px;
+  margin-left: 10px;
+}
+
+.select-payment {
+  width: 110px;
+  margin-left: 10px;
+}
+
+.select-driver-birth-date {
+  width: 202px;
+  height: 50px;
+}

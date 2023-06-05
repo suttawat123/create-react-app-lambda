@@ -1,0 +1,122 @@
+.buttonExample {
+  margin-top: 0 !important;
+  font-family: Sarabun !important;
+  font-size: 15px !important;
+  /* font-weight: bold; */
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5 !important;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1f5afd;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.file-BorderUpload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 86px;
+  height: 86px;
+  border-radius: 5px;
+  border: solid 1.5px #1f5afd;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.file-BorderUpload-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 86px;
+  height: 86px;
+  border-radius: 5px;
+  border: solid 1.5px #f86c6b;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.file-BorderBlockUpload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 86px;
+  height: 86px;
+  border-radius: 5px;
+  border: solid 1.5px #000000;
+  background-color: #cacccf;
+  cursor: pointer;
+}
+
+.labelBlock {
+  font-family: Sarabun !important;
+  font-size: 15px !important;
+  /* font-weight: bold; */
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5 !important;
+  letter-spacing: normal;
+  text-align: center;
+  color: #cacccf;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.buttonBlockExample {
+  font-family: Sarabun !important;
+  margin-top: 0 !important;
+  font-size: 15px !important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5 !important;
+  letter-spacing: normal;
+  text-align: center;
+  color: #cacccf;
+  text-decoration: underline;
+}
+
+.buttonBlockExample:hover {
+  color: #cacccf;
+  text-decoration: none;
+}
+
+.label-upload {
+  font-family: Sarabun;
+  font-size: 15px;
+  /* font-weight: bold; */
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.content-file{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.icon-delete{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.input-file{
+  position: absolute;
+  width: 86px;
+  height: 86px;
+  opacity: 0;
+  cursor: pointer;
+  top: 0;
+  z-index: 99;
+}
